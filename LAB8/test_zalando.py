@@ -24,7 +24,7 @@ def wait_for_rodo_async(driver):
 
 
 def open_zalando():
-    driver = webdriver.Chrome(executable_path="../lib/chromedriver.exe")
+    driver = webdriver.Chrome(executable_path="lib/chromedriver.exe")
     url = "https://www.zalando.pl/"
     driver.maximize_window()
     driver.get(url)

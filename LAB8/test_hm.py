@@ -26,7 +26,7 @@ def wait_for_rodo_async(driver):
 
 
 def open_hm():
-    driver = webdriver.Chrome(executable_path="../lib/chromedriver.exe")
+    driver = webdriver.Chrome(executable_path="lib/chromedriver.exe")
     url = "https://www2.hm.com/"
     driver.maximize_window()
     driver.get(url)

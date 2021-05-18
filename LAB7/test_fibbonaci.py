@@ -7,5 +7,5 @@ test_data = [(-500, None), (0.5, None), (-22.123, None), (fib, None), ([1, 2, 3]
 
 
 @pytest.mark.parametrize("number,expected", test_data)
-def test_fibonacci(number, expected):
+def test_fibonacci(number, expected, json_metadata):
     assert fib(number) == expected
