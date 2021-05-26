@@ -1,0 +1,46 @@
+2021-05-26 10:25:52,064 open_hm() - start
+2021-05-26 10:25:52,064 starting driver
+2021-05-26 10:25:52,575 POST http://127.0.0.1:65492/session {"capabilities": {"firstMatch": [{}], "alwaysMatch": {"browserName": "chrome", "platformName": "any", "goog:chromeOptions": {"extensions": [], "args": []}}}, "desiredCapabilities": {"browserName": "chrome", "version": "", "platform": "ANY", "goog:chromeOptions": {"extensions": [], "args": []}}}
+2021-05-26 10:25:52,575 Starting new HTTP connection (1): 127.0.0.1:65492
+2021-05-26 10:25:53,040 http://127.0.0.1:65492 "POST /session HTTP/1.1" 200 754
+2021-05-26 10:25:53,041 Finished Request
+2021-05-26 10:25:53,041 maximizing window
+2021-05-26 10:25:53,041 POST http://127.0.0.1:65492/session/85c15a1684abe2e362bfac7b5f9e37f5/window/maximize {}
+2021-05-26 10:25:53,157 http://127.0.0.1:65492 "POST /session/85c15a1684abe2e362bfac7b5f9e37f5/window/maximize HTTP/1.1" 200 52
+2021-05-26 10:25:53,157 Finished Request
+2021-05-26 10:25:53,157 opening url
+2021-05-26 10:25:53,157 POST http://127.0.0.1:65492/session/85c15a1684abe2e362bfac7b5f9e37f5/url {"url": "https://www2.hm.com/"}
+2021-05-26 10:25:54,095 http://127.0.0.1:65492 "POST /session/85c15a1684abe2e362bfac7b5f9e37f5/url HTTP/1.1" 200 14
+2021-05-26 10:25:54,095 Finished Request
+2021-05-26 10:25:54,096 wait_for_rodo() - start
+2021-05-26 10:25:54,096 open_hm() - return
+2021-05-26 10:25:54,096 wait_for_rodo() - try
+2021-05-26 10:25:54,096 choose_language() - start
+2021-05-26 10:25:54,096 POST http://127.0.0.1:65492/session/85c15a1684abe2e362bfac7b5f9e37f5/element {"using": "css selector", "value": "[id=\"onetrust-accept-btn-handler\"]"}
+2021-05-26 10:25:54,096 POST http://127.0.0.1:65492/session/85c15a1684abe2e362bfac7b5f9e37f5/element {"using": "css selector", "value": "[id=\"link_en_us\"]"}
+2021-05-26 10:25:54,097 Starting new HTTP connection (2): 127.0.0.1:65492
+2021-05-26 10:25:54,103 http://127.0.0.1:65492 "POST /session/85c15a1684abe2e362bfac7b5f9e37f5/element HTTP/1.1" 404 1185
+2021-05-26 10:25:54,103 Finished Request
+2021-05-26 10:25:54,110 http://127.0.0.1:65492 "POST /session/85c15a1684abe2e362bfac7b5f9e37f5/element HTTP/1.1" 200 88
+2021-05-26 10:25:54,110 Connection pool is full, discarding connection: 127.0.0.1
+2021-05-26 10:25:54,110 Finished Request
+2021-05-26 10:25:54,111 POST http://127.0.0.1:65492/session/85c15a1684abe2e362bfac7b5f9e37f5/element/72346a1c-f58d-4e1d-88de-db69ed5b1c03/click {"id": "72346a1c-f58d-4e1d-88de-db69ed5b1c03"}
+2021-05-26 10:25:54,609 POST http://127.0.0.1:65492/session/85c15a1684abe2e362bfac7b5f9e37f5/element {"using": "css selector", "value": "[id=\"onetrust-accept-btn-handler\"]"}
+2021-05-26 10:25:54,609 Starting new HTTP connection (3): 127.0.0.1:65492
+2021-05-26 10:25:55,789 http://127.0.0.1:65492 "POST /session/85c15a1684abe2e362bfac7b5f9e37f5/element/72346a1c-f58d-4e1d-88de-db69ed5b1c03/click HTTP/1.1" 200 14
+2021-05-26 10:25:55,789 Finished Request
+2021-05-26 10:25:55,789 search() - start
+2021-05-26 10:25:55,789 driver.find_element_by_id("main-search)
+2021-05-26 10:25:55,789 POST http://127.0.0.1:65492/session/85c15a1684abe2e362bfac7b5f9e37f5/element {"using": "css selector", "value": "[id=\"main-search\"]"}
+2021-05-26 10:25:55,792 http://127.0.0.1:65492 "POST /session/85c15a1684abe2e362bfac7b5f9e37f5/element HTTP/1.1" 200 88
+2021-05-26 10:25:55,792 Finished Request
+2021-05-26 10:25:55,792 POST http://127.0.0.1:65492/session/85c15a1684abe2e362bfac7b5f9e37f5/element/cb259c7e-557b-4004-b767-4c85101ceec8/click {"id": "cb259c7e-557b-4004-b767-4c85101ceec8"}
+2021-05-26 10:25:55,799 http://127.0.0.1:65492 "POST /session/85c15a1684abe2e362bfac7b5f9e37f5/element HTTP/1.1" 200 88
+2021-05-26 10:25:55,799 Finished Request
+2021-05-26 10:25:55,799 POST http://127.0.0.1:65492/session/85c15a1684abe2e362bfac7b5f9e37f5/element {"using": "css selector", "value": "[id=\"sending keys to main-search\"]"}
+2021-05-26 10:25:55,880 http://127.0.0.1:65492 "POST /session/85c15a1684abe2e362bfac7b5f9e37f5/element/cb259c7e-557b-4004-b767-4c85101ceec8/click HTTP/1.1" 200 14
+2021-05-26 10:25:55,880 Finished Request
+2021-05-26 10:25:55,880 wait_for_rodo() - success
+2021-05-26 10:25:55,918 http://127.0.0.1:65492 "POST /session/85c15a1684abe2e362bfac7b5f9e37f5/element HTTP/1.1" 404 1185
+2021-05-26 10:25:55,918 Connection pool is full, discarding connection: 127.0.0.1
+2021-05-26 10:25:55,918 Finished Request
